@@ -16,6 +16,6 @@
        specific language governing permissions and limitations
        under the License.
 */
-package org.apache.cordova.camera;
+package com.neutrinos.plugin;
 
 public class FileProvider extends android.support.v4.content.FileProvider {}

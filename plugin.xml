@@ -27,7 +27,7 @@
     </config-file> 
     <config-file target="AndroidManifest.xml" parent="application">
       <provider
-          android:name="org.apache.cordova.camera.FileProvider"
+          android:name="com.neutrinos.plugin.FileProvider"
           android:authorities="${applicationId}.provider"
           android:exported="false"
           android:grantUriPermissions="true" >
@@ -38,8 +38,6 @@
     </config-file>
 
     <source-file src="src/android/Scan.java" target-dir="src/com/neutrinos/plugin/" />
-    <source-file src="src/android/CameraLauncher.java" target-dir="src/com/neutrinos/plugin/" />
-    <source-file src="src/android/CordovaUri.java" target-dir="src/com/neutrinos/plugin/" />
     <source-file src="src/android/FileHelper.java" target-dir="src/com/neutrinos/plugin/" />
     <source-file src="src/android/ExifHelper.java" target-dir="src/com/neutrinos/plugin/" />
     <source-file src="src/android/FileProvider.java" target-dir="src/com/neutrinos/plugin/" />
