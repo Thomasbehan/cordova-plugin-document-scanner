@@ -43,7 +43,7 @@
     <source-file src="src/android/FileHelper.java" target-dir="src/com/neutrinos/plugin/" />
     <source-file src="src/android/ExifHelper.java" target-dir="src/com/neutrinos/plugin/" />
     <source-file src="src/android/FileProvider.java" target-dir="src/com/neutrinos/plugin/" />
-    <source-file src="src/android/xml/camera_provider_paths.xml" target-dir="res/xml" />
+    <source-file src="src/android/xml/document_scan_provider_paths.xml" target-dir="res/xml" />
 
     <framework src="src/android/build.gradle" custom="true" type="gradleReference"/>
   </platform>
