@@ -3,7 +3,7 @@
   "version": "2.0.1",
   "repository": {
     "type": "git",
-    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner"
+    "url": "git+https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner.git"
   },
   "cordova": {
     "id": "cordova-plugin-document-scanner",
@@ -25,9 +25,18 @@
   "engines": {
     "cordovaDependencies": {
       "cordova-android": ">=6.4.0",
-      "cordova-ios": ">=4.5.4"}
+      "cordova-ios": ">=4.5.4"
+    }
   },
   "author": "jatahworx",
   "license": "ISC",
-  "description": "cordova plugin for document scanner"
+  "description": "cordova plugin for document scanner",
+  "bugs": {
+    "url": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner/issues"
+  },
+  "homepage": "https://github.com/NeutrinosPlatform/cordova-plugin-document-scanner#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
