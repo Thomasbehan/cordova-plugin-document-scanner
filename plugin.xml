@@ -25,9 +25,9 @@
         <param name="android-package" value="com.neutrinos.plugin.Scan"/>
       </feature>
     </config-file> 
-    <config-file target="AndroidManifest.xml" parent="application">
+    <config-file target="AndroidManifest.xml" parent="/*">
       <provider
-          android:name="com.neutrinos.plugin.FileProvider"
+          android:name="android.support.v4.content.FileProvider"
           android:authorities="${applicationId}.provider"
           android:exported="false"
           android:grantUriPermissions="true" >
