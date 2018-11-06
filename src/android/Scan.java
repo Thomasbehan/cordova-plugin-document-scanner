@@ -84,5 +84,6 @@ public class Scan extends CordovaPlugin {
                 this.callbackContext.error("null data from scan libary");
             }
         }
+        
     }
 }
